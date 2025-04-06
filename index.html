@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Word analysis</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1 id="word_analysis_text">Word analysis</h1>
+        <h2>Home page</h2>
+    </header>
+    <div class="container">
+        <section class="tools">
+            <i class="material-icons clear" role="button">delete_sweep</i>
+            <i class="material-icons">titlecase</i>
+        </section>
+    </div>
+    <div class="container">
+        <textarea class="textbox" rows="10" cols="90" placeholder="Enter your text"></textarea>
+        <section class="details">
+            <section class="detail">
+                <span class="words_count">0</span>
+                <h5>Words</h5>
+            </section>
+
+            <section class="detail">
+                <span class="chars_count">0</span>
+                <h5>Characters</h5>
+            </section>
+
+            <section class="detail">
+                <span class="chars_nospace_count">0</span>
+                <h5>Characters (no space)</h5>
+            </section>
+
+            <section class="detail">
+                <span class="sentences_count">0</span>
+                <h5>Sentences</h5>
+            </section>
+
+            <section class="detail no_border">
+                <span class="paragraphs_count">0</span>
+                <h5>Paragraphs</h5>
+            </section>
+        </section>
+    </div>
+
+    <footer>
+        <small class="copyright">
+            &copy; copyright by word analysis.ir All rights reserved .
+        </small>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
