@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Word analysis</title>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" />
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -12,10 +13,15 @@
         <h1 id="word_analysis_text">Word analysis</h1>
         <h2>Home page</h2>
     </header>
-    <div class="container">
+    <div>
         <section class="tools">
-            <i class="material-icons clear" role="button">delete_sweep</i>
-            <i class="material-icons">titlecase</i>
+            <i class="material-icons clear">delete_sweep</i>
+            <span class="material-symbols-outlined uppercase">uppercase</span>
+            <span class="material-symbols-outlined lowercase">lowercase</span>
+            <span class="material-symbols-outlined capitalize">titlecase</span>
+            <i class="material-icons align_left">format_align_left</i>
+            <i class="material-icons align_center">format_align_center</i>
+            <i class="material-icons align_right">format_align_right</i>
         </section>
     </div>
     <div class="container">
@@ -55,5 +61,6 @@
     </footer>
 
     <script src="js/script.js"></script>
+    <script src="js/tools_handler.js"></script>
 </body>
 </html>
