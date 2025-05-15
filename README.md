@@ -1,0 +1,1 @@
+We created a site to analyze words, paragraphs, and sentences of text. This site also has features for controlling text (such as uppercase and lowercase text,clearing all text entered by the user, and right-aligning and left-aligning and center_aligning text).
